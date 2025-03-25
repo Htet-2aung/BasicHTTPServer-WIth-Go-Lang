@@ -1,9 +1,20 @@
-# BasicHTTPServer-With-Go-Lang
+# BasicHTTPServer-With-Go-Lang
+
+This repository demonstrates how to build a simple HTTP server using Go's standard library. Before running the program, ensure that Go is installed on your machine.
+
+**To execute the program:**
 
 
+```bash
+cd SimpleHTTPServer/
+go run main.go
+```
 
-This repository is all about building the simple HTTP server using Go standard library. Before executing the program make sure to install the Go Lang on our machine.
+This will start the HTTP server, allowing it to handle incoming requests. 
+In order to check whether the server is working, we can simply check by this command:
 
-Then we run the program with:
-'' cd SimpleHTTPServer/
-go  run main.go  ''
+```bash
+curl http://localhos:Port
+```
+
+ 
